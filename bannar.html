@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/css/datepicker.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/utility.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css">
+    <title>Prayer</title>
+</head>
+
+<body>
+    
+ 
+    <section class="w-100 vh-100 bg_img_bannar ">
+        <div class="w-75 m-auto">
+            <h1 class="text-white text-center pt-5">We Will We Back Soon</h1>
+            <p class="text-center text-white py-3 ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis odit reprehenderit dicta voluptates ipsam accusantium quia, ut id neque delectus laboriosam veritatis praesentium molestias iure ab consequuntur dignissimos quos repellat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, laudantium. Non iste, cumque veniam aliquid iure nobis quam consequuntur natus culpa ut nam numquam repellendus aut ipsa harum distinctio ea?</p>
+            <div class="borderSpan"></div>
+
+            <!-- Time Code start -->
+            <div class="w-75 m-auto">
+                <div class="row m-0">
+                    <div class="col-3">
+                        <div class="days headingCalender">31</div>
+                        <div class="buttonCalender">Days</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="hours headingCalender">31</div>
+                        <div class="buttonCalender">Hours</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="minuts headingCalender">31</div>
+                        <div class="buttonCalender">Minuts</div>
+                    </div>
+                    <div class="col-3">
+                        <div class="seconds headingCalender">31</div>
+                        <div class="buttonCalender">Seconds</div>
+                    </div>
+                </div>
+            </div>
+            <!-- Time Code end -->
+
+            <div class="py-5">
+                <div class="w-75 m-auto">
+				    <div class="input-group subscription-form">
+				      <input type="text" class="form-control" placeholder="Enter Your Email Address">
+				      <span class="input-group-btn">
+				        <button class="btn btn-main bg-orange text-white" type="button">Subscribe Now!</button>
+				      </span>
+				    </div><!-- /input-group -->
+			  </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-light rounded-0 px-3">About us</button>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.2.0/js/bootstrap-datepicker.min.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+        <script>
+            setInterval(() => {
+              let a = new Date()
+                $('.days').html(a.getDate())
+                $('.hours').html(a.getHours())
+                $('.minuts').html(a.getMinutes())
+                $('.seconds').html(a.getSeconds())
+            }, 1000);
+          </script>
+
+        
+    </body>
+</html>

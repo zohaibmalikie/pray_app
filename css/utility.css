@@ -1,0 +1,37 @@
+.bg-orange{
+    background-color: orange;
+}
+
+.bg_img_bannar{
+    background-image:   linear-gradient(to bottom,rgb(0 0 0 / 89%) 10%, rgb(27 27 27)), url(../images/bg-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.borderSpan{
+    width: 80px;
+    height: 3px;
+    background-color: orange;
+    margin: auto;
+}
+
+.headingCalender{
+    color: orange;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    
+
+}
+.buttonCalender{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    margin:auto;
+}
