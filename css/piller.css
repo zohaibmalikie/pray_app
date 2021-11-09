@@ -7,3 +7,40 @@
     padding: 50px;
 }
 
+.bgimgeIcon{
+    background-image: url('../images/pillars_bg-1.png');
+}
+.pillerIcon{
+width: fit-content;
+margin: auto;
+position: relative;
+}
+.pillerIcon i{
+    color: #8a9535;
+    font-size: 55px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.islamic_philos{
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-image: url('../images/bg2-1-1.webp');
+    height: 220px;
+}
+.islamic_philisTitle{
+    font-size: 48px!important;
+    font-weight: bold!important;
+    color: #222222!important;
+}
+.phi_title{
+font-size: 24px;
+}
+.phi_desc{
+font-size: 14px;
+}
