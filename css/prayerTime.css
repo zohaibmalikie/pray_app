@@ -1,0 +1,14 @@
+.prayerTime{
+    color: #242f6c;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.bg-d5f6f6{
+    background: #d5f6f6;
+}
