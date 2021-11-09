@@ -1,0 +1,9 @@
+.pillerbgImg{
+    background-image:linear-gradient(to bottom,rgb(0 0 0 / 59%) 10%, rgb(27 27 27)), url('../images/piller.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 50px;
+}
+
